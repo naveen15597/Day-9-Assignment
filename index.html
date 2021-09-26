@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 9</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>    
+    <h3>3. ContactUs form</h3>
+    <div class="container">
+        <h4>Contact US</h4>
+        <form>
+          <label for="fname">First Name</label>
+          <input class="inp" type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input class="inp" type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country" value="">
+            <option value="">Select any option</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Germany">Germany</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input class="btn" type="submit" value="Submit">
+        </form>
+      </div>
+
+    <h3>4. Use certain HTML elements to display the following in a HTML page.</h3>
+    <ul>
+        <li>Programming Language</li>
+        <ul>
+        <li class="lang">
+            JavaScript            
+            <ol class="child">
+                <li>Angular</li>
+                <li>React</li>
+                <li>Vue.js</li>
+            </ol>
+        </li>
+    
+        <li class="lang">
+            Python
+            <ol class="child">
+                <li>Django Framework</li>
+                <li>Flask Framework</li>
+            </ol>
+        </li>
+        <li class="lang">
+            Java
+            <ol class="child">
+                <li>Spring</li>
+                <li>Maven</li>
+                <li>Hibernate</li>
+            </ol>
+        </li>
+    </ul>
+        <li>Database</li>
+        <ol class="DB">
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Cansandra</li>
+        </ol>
+    </ul>    
+
+    <h3>5. Create an element that helps you to open the https://google.com in separate new tab.</h3>
+    <a href="https://www.google.com/" target="_blank">Google</a>
+
+    <h3>6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business</h3>
+    <input name="emp" type="radio">Salaried
+    <input name="emp" type="radio">own business
+
+    <h3>7. Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)</h3>
+    <div class="border-box">
+        <div class="top">Yes! I want to subscribe to Mag-O-Zine</div>
+        <div class="names">
+            <div class="inner-names margin">
+                <input type="text">
+                <label>First Name</label>
+            </div>   
+            <div class="inner-names margin">
+                <input type="text">
+                <label>Last Name</label>
+            </div>       
+        </div>
+        <div class="inner-names margin">
+            <input type="text">
+            <label>Address</label>            
+        </div>
+        <div class="names">
+            <div class="inner-names margin">
+                <input type="text">
+                <label>City</label>
+            </div>
+            <div class="inner-names margin">
+                <input type="text">
+                <label>State</label>
+            </div>
+            <div class="inner-names margin">
+                <input type="number">
+                <label>Zip</label>
+            </div>
+        </div>
+
+        <div class="margin"> 
+            Subscribe for: <input type="checkbox" name="year">1 year ($19)<input type="checkbox" name="year">2 years ($35)
+        </div>
+        <div class="margin">
+            Send me more information about:
+            <div>
+                <div><input type="checkbox" name="info">Computer-Zine</div>
+                <div><input type="checkbox" name="info">Fishing-Zine</div>
+                <div><input type="checkbox" name="info">Cat-O_Zine</div>
+            </div>
+        </div>
+    </div>
+
+    <h3>8. Use the table tag to design given image</h3>
+    <h4>Health chart</h4>
+    <table>
+        <tr>
+         <td rowspan="2">State Of Health</td>
+         <td colspan="2">Fasting Value</td>         
+         <td>After Eating</td>
+        </tr>
+        <tr>         
+         <td>Minimum</td>
+         <td>Maximum</td>
+         <td>2 hrs after eating</td>
+         <!-- <td>555</td> -->
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less tahn 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>more tahn 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+       </table>
+
+    <h3>9.Write HTML input tags snippet to show default values for Form elements.</h3>
+    <input type="text" placeholder="Enter your name" value="Naveen">
+
+    <h3>10.In your, HTML page add the below line and Highlight it without using any CSS.</h3>
+    <mark>HTML & CSS is awesome</mark>
+
+
+    <h3>11.All types of HTML elements</h3>
+    <div class="input-elements">
+        <div>Button      -       <input type="button" value="Button"></div>
+        <div>checkbox    -       <input type="checkbox" value="checkbox"></div>
+        <div>color       -       <input type="color"></div>
+        <div>date        -       <input type="date"></div>
+        <div> datetime-local-     <input type="datetime-local"></div>
+        <div>email       -       <input type="email"></div>
+        <div>file        -       <input type="file"></div>
+        <div>hidden      -       <input type="hidden"></div>
+        <div>image       -       <input type="image"></div>
+        <div>month       -       <input type="month"></div>
+        <div>number      -       <input type="number"></div>
+        <div>password    -       <input type="password"></div>
+        <div>radio       -       <input type="radio"></div>
+        <div>range       -       <input type="range"></div>
+        <div>reset       -       <input type="reset"></div>
+        <div>search      -       <input type="search"></div>
+        <div>submit      -       <input type="submit"></div>
+        <div>tel         -       <input type="tel"></div>
+        <div>text        -       <input type="text"></div>
+        <div>time        -       <input type="time"></div>
+        <div>url         -       <input type="url"></div>
+        <div>>week        -       <input type="week"></div>
+    
+</body>
+</html>
